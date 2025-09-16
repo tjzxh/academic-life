@@ -1,6 +1,6 @@
 ---
 title: Artificial Intelligence in Transportation Research
-summary: Apply reinforcement learning to autonomous driving decision-making, enabling AVs to drive adaptively in traffic, and advance deep learning techniques to accurately reproduce human driving behaviors.
+summary: Apply reinforcement learning to autonomous driving decision-making, enabling AVs to drive adaptively in traffic.
 date: 2019-06-01
 # external_link: https://github.com/pytorch/pytorch
 tags:
@@ -9,13 +9,6 @@ tags:
   - Driving behavior modeling
 ---
 <div align="justify">My research applies advanced artificial intelligence to revolutionize autonomous vehicle behavior and decision-making in transportation systems. The central challenge I address is that traditional approaches treat driving behaviors as isolated processes, failing to capture the interconnected nature of real-world traffic dynamics. Through deep learning and reinforcement learning techniques, I develop AI systems that understand and replicate the integrated, adaptive decision-making that characterizes skilled human driving.</div>
-
-<h3> Integrated Behavior Modeling Through Deep Learning</h3>
-<img src="HRC_LSTM.png" alt="HRC-LSTM for reproducing human trajectory">
-<div align="justify">I have developed Long Short-Term Memory neural networks that simultaneously model car-following and lane-changing behaviors by observing only the positions of surrounding vehicles. This represents a fundamental shift from conventional approaches that model these behaviors separately. The LSTM architecture automatically extracts relevant features and captures the temporal dynamics of traffic interactions, while my Hybrid Retraining Constrained training method further optimizes performance.<br>
-<img src="HRC_result1.png" alt="Result 1">
-<img src="HRC_result2.png" alt="Results 2">
-Validation with real-world trajectory data demonstrates superior accuracy compared to classical models and excellent transferability across different traffic environments.</div>
 
 
 <h3> Reinforcement Learning for Decision-Making</h3>
@@ -38,7 +31,6 @@ My Traffic Flow Adaptive strategy extends this hierarchical approach to system-l
 <div align="justify">
 <cite> 
 <ul>
-<li><b>Zhang, X.</b>, Sun, Jie, Qi, X., Sun, Jian, 2019. Simultaneous modeling of car-following and lane-changing behaviors using deep learning. Transportation Research Part C: Emerging Technologies 104, 287–304.</li>  
 <li>Ye, Y.*, <b>Zhang, X.</b>*, Sun, J., 2019. Automated vehicle’s behavior decision making using deep reinforcement learning and high-fidelity simulation environment. Transportation Research Part C: Emerging Technologies 107, 155–170.</li>
 <li><b>Zhang, X.</b>, Sun, Jie, Wang, Y., Sun, Jian, 2023. A Hierarchical Framework for Multi-Lane Autonomous Driving Based on Reinforcement Learning. IEEE Open Journal of Intelligent Transportation Systems 4, 626–638.</li></ul> 
 </cite>

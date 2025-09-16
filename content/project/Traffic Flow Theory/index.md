@@ -1,5 +1,5 @@
 ---
-title: Stochastic Traffic Flow Theory
+title: Traffic Flow Theory and Simulation
 summary: Develop an analytical micro–macroscopic modeling approach that bridges stochastic driving behaviors and traffic flow properties (the Stochastic Fundamental Diagram).
 date: 2022-09-01
 # external_link: https://github.com/scikit-learn/scikit-learn
@@ -9,7 +9,14 @@ tags:
   - Maximum entropy
 ---
 <div align="justify">
-My research in traffic flow theory focuses on bridging the fundamental gap between microscopic driving behaviors and macroscopic traffic flow properties through analytical modeling approaches. The central challenge I address is understanding and quantifying the inherent stochasticity in traffic systems, where individual driver behaviors create uncertainty that propagates through the entire traffic network. Rather than treating traffic flow as deterministic, my work develops mathematical frameworks that explicitly account for the probabilistic nature of driving decisions and their collective impact on system-level performance.</div>
+My research in traffic flow theory and simulation focuses on bridging the fundamental gap between microscopic driving behaviors and macroscopic traffic flow properties through analytical modeling approaches and advance data-driven techniques to accurately reproduce human driving behaviors. The central challenge I address is understanding and quantifying the inherent stochasticity in traffic systems, where individual driver behaviors create uncertainty that propagates through the entire traffic network. Rather than treating traffic flow as deterministic, my work develops mathematical frameworks that explicitly account for the probabilistic nature of driving decisions and their collective impact on system-level performance.</div>
+
+<h3> Integrated Behavior Modeling Through Deep Learning</h3>
+<img src="HRC_LSTM.png" alt="HRC-LSTM for reproducing human trajectory">
+<div align="justify">I have developed Long Short-Term Memory neural networks that simultaneously model car-following and lane-changing behaviors by observing only the positions of surrounding vehicles. This represents a fundamental shift from conventional approaches that model these behaviors separately. The LSTM architecture automatically extracts relevant features and captures the temporal dynamics of traffic interactions, while my Hybrid Retraining Constrained training method further optimizes performance.<br>
+<img src="HRC_result1.png" alt="Result 1">
+<img src="HRC_result2.png" alt="Results 2">
+Validation with real-world trajectory data demonstrates superior accuracy compared to classical models and excellent transferability across different traffic environments.</div>
 
 <h3> Analytical Micro-Macroscopic Modeling</h3>
 <div align="justify">
@@ -34,7 +41,10 @@ The Leader-Follower Conditional Distribution framework represents a general anal
 
 <h3> References</h3>
 <div align="justify">
-<cite> <b>Zhang, X.</b>, Sun, Jie, Sun, Jian, 2025. On the stochastic fundamental diagram: A general micro-macroscopic traffic flow modeling framework. Communications in Transportation Research 5, 100163. </cite>
+<cite><ul> 
+<li><b>Zhang, X.</b>, Sun, Jie, Sun, Jian, 2025. On the stochastic fundamental diagram: A general micro-macroscopic traffic flow modeling framework. Communications in Transportation Research 5, 100163.<li>
+<li><b>Zhang, X.</b>, Sun, Jie, Qi, X., Sun, Jian, 2019. Simultaneous modeling of car-following and lane-changing behaviors using deep learning. Transportation Research Part C: Emerging Technologies 104, 287–304.</li>
+</ul></cite>  
 </div>
 
 <!-- scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license. -->
