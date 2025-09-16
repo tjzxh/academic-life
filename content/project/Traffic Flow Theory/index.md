@@ -5,7 +5,7 @@ date: 2022-09-01
 # external_link: https://github.com/scikit-learn/scikit-learn
 tags:
   - Micro-to-Macro
-  - Traffic flow
+  - Traffic simulation
   - Maximum entropy
 ---
 <div align="justify">
