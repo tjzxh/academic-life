@@ -38,7 +38,7 @@ sections:
       title: 'My Research'
       subtitle: ''
       text: |-        
-        I have published multiple papers in leading journals such as **Transportation Research Part C** and **Communications in Transportation Research**. My publications have collectively received over **460 citations**.
+        I have published multiple papers in leading journals such as **Transportation Research Part C** and **Communications in Transportation Research**. My publications have collectively received over **500 citations**.
     design:
       columns: 1
   - block: collection
